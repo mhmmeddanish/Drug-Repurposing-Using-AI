@@ -1,0 +1,569 @@
+[
+  {
+    "disease_name": "Alzheimer disease",
+    "efo_id": "EFO_0000249",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Parkinson disease",
+    "efo_id": "EFO_0002508",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Multiple sclerosis",
+    "efo_id": "EFO_0003885",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Epilepsy",
+    "efo_id": "EFO_0000474",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Amyotrophic lateral sclerosis",
+    "efo_id": "EFO_0000253",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Migraine",
+    "efo_id": "EFO_0003913",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Stroke",
+    "efo_id": "EFO_0000712",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Huntington disease",
+    "efo_id": "EFO_0000549",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Dementia",
+    "efo_id": "EFO_0000249",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Peripheral neuropathy",
+    "efo_id": "EFO_0004268",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Spinal cord injury",
+    "efo_id": "EFO_0009690",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Cerebral palsy",
+    "efo_id": "EFO_0000330",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Myasthenia gravis",
+    "efo_id": "EFO_0000915",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Neuropathic pain",
+    "efo_id": "EFO_1001459",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Restless legs syndrome",
+    "efo_id": "EFO_0004609",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Breast carcinoma",
+    "efo_id": "EFO_0000305",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Lung carcinoma",
+    "efo_id": "EFO_0001071",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Colorectal carcinoma",
+    "efo_id": "EFO_0005842",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Prostate carcinoma",
+    "efo_id": "EFO_0001663",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Melanoma",
+    "efo_id": "EFO_0000756",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Leukemia",
+    "efo_id": "EFO_0000565",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Lymphoma",
+    "efo_id": "EFO_0000574",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Pancreatic carcinoma",
+    "efo_id": "EFO_0002618",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Ovarian carcinoma",
+    "efo_id": "EFO_0001075",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Glioblastoma",
+    "efo_id": "EFO_0000519",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Bladder carcinoma",
+    "efo_id": "EFO_0000292",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Liver carcinoma",
+    "efo_id": "EFO_0000182",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Coronary artery disease",
+    "efo_id": "EFO_0001645",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Hypertension",
+    "efo_id": "EFO_0000537",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Heart failure",
+    "efo_id": "EFO_0003144",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Atrial fibrillation",
+    "efo_id": "EFO_0000275",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Atherosclerosis",
+    "efo_id": "EFO_0000279",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Myocardial infarction",
+    "efo_id": "EFO_0000612",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Peripheral artery disease",
+    "efo_id": "EFO_1000822",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Cardiomyopathy",
+    "efo_id": "EFO_0000318",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Pulmonary hypertension",
+    "efo_id": "EFO_0000828",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Deep vein thrombosis",
+    "efo_id": "EFO_0003108",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Type 2 diabetes mellitus",
+    "efo_id": "EFO_0001360",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Type 1 diabetes mellitus",
+    "efo_id": "EFO_0001359",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Obesity",
+    "efo_id": "EFO_0001073",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Hyperlipidemia",
+    "efo_id": "EFO_0003767",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Metabolic syndrome",
+    "efo_id": "EFO_0000617",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Gout",
+    "efo_id": "EFO_0000530",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Hyperthyroidism",
+    "efo_id": "EFO_0004237",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Hypothyroidism",
+    "efo_id": "EFO_0004295",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Rheumatoid arthritis",
+    "efo_id": "EFO_0000685",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Systemic lupus erythematosus",
+    "efo_id": "EFO_0002690",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Psoriasis",
+    "efo_id": "EFO_0000676",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Inflammatory bowel disease",
+    "efo_id": "EFO_0003767",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Crohn disease",
+    "efo_id": "EFO_0000384",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Ulcerative colitis",
+    "efo_id": "EFO_0000729",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Graves' disease",
+    "efo_id": "EFO_0003885",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Celiac disease",
+    "efo_id": "EFO_0000320",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Major depressive disorder",
+    "efo_id": "EFO_0003761",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Schizophrenia",
+    "efo_id": "EFO_0000692",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Bipolar disorder",
+    "efo_id": "EFO_0000289",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Anxiety disorder",
+    "efo_id": "EFO_0003086",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Obsessive compulsive disorder",
+    "efo_id": "EFO_0000621",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Post-traumatic stress disorder",
+    "efo_id": "EFO_0004241",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Attention deficit hyperactivity disorder",
+    "efo_id": "EFO_0003888",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Asthma",
+    "efo_id": "EFO_0000270",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Chronic obstructive pulmonary disease",
+    "efo_id": "EFO_0000341",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Pulmonary fibrosis",
+    "efo_id": "EFO_0001645",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Cystic fibrosis",
+    "efo_id": "EFO_0000339",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Pneumonia",
+    "efo_id": "EFO_0000649",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Sleep apnea",
+    "efo_id": "EFO_0004753",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "HIV infection",
+    "efo_id": "EFO_0001378",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Hepatitis C",
+    "efo_id": "EFO_0001488",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Tuberculosis",
+    "efo_id": "EFO_0000721",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Malaria",
+    "efo_id": "EFO_0000572",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Influenza",
+    "efo_id": "EFO_0009681",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Chronic kidney disease",
+    "efo_id": "EFO_0003884",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Osteoarthritis",
+    "efo_id": "EFO_0000555",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Osteoporosis",
+    "efo_id": "EFO_0000693",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Glaucoma",
+    "efo_id": "EFO_0000524",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Macular degeneration",
+    "efo_id": "EFO_0001365",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Chronic pain",
+    "efo_id": "EFO_0004761",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Fibromyalgia",
+    "efo_id": "EFO_0003843",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Endometriosis",
+    "efo_id": "EFO_0001065",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Polycystic ovary syndrome",
+    "efo_id": "EFO_0000660",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  },
+  {
+    "disease_name": "Erectile dysfunction",
+    "efo_id": "EFO_1001486",
+    "targets_count": 0,
+    "known_drugs_count": 0,
+    "description": ""
+  }
+]
