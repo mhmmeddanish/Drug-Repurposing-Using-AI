@@ -1,0 +1,1055 @@
+[
+  {
+    "disease_name": "Alzheimer disease",
+    "efo_id": "EFO_0000249",
+    "timestamp": "2025-12-07T18:42:23.541525",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5f770>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Alzheimer+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e99670>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Parkinson disease",
+    "efo_id": "EFO_0002508",
+    "timestamp": "2025-12-07T18:42:23.545554",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc7d0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Parkinson+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf470>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Multiple sclerosis",
+    "efo_id": "EFO_0003885",
+    "timestamp": "2025-12-07T18:42:23.547811",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070855b0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Multiple+sclerosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc56a0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Epilepsy",
+    "efo_id": "EFO_0000474",
+    "timestamp": "2025-12-07T18:42:23.549814",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e46fc0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Epilepsy&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47b30>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Amyotrophic lateral sclerosis",
+    "efo_id": "EFO_0000253",
+    "timestamp": "2025-12-07T18:42:23.551953",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5c8f0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Amyotrophic+lateral+sclerosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107085730>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Migraine",
+    "efo_id": "EFO_0003913",
+    "timestamp": "2025-12-07T18:42:23.553989",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd490>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Migraine&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e475c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Stroke",
+    "efo_id": "EFO_0000712",
+    "timestamp": "2025-12-07T18:42:23.555932",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45490>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Stroke&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e44980>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Huntington disease",
+    "efo_id": "EFO_0000549",
+    "timestamp": "2025-12-07T18:42:23.558188",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45250>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Huntington+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd790>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Dementia",
+    "efo_id": "EFO_0000249",
+    "timestamp": "2025-12-07T18:42:23.561532",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107084770>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Dementia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7b30>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Peripheral neuropathy",
+    "efo_id": "EFO_0004268",
+    "timestamp": "2025-12-07T18:42:23.563670",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37770>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Peripheral+neuropathy&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc4ec0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Spinal cord injury",
+    "efo_id": "EFO_0009690",
+    "timestamp": "2025-12-07T18:42:23.566033",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107085730>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Spinal+cord+injury&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf740>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Cerebral palsy",
+    "efo_id": "EFO_0000330",
+    "timestamp": "2025-12-07T18:42:23.568091",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45310>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Cerebral+palsy&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e46600>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Myasthenia gravis",
+    "efo_id": "EFO_0000915",
+    "timestamp": "2025-12-07T18:42:23.570107",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37d70>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Myasthenia+gravis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e472f0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Neuropathic pain",
+    "efo_id": "EFO_1001459",
+    "timestamp": "2025-12-07T18:42:23.572299",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc9e0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Neuropathic+pain&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc770>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Restless legs syndrome",
+    "efo_id": "EFO_0004609",
+    "timestamp": "2025-12-07T18:42:23.574272",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5eed0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Restless+legs+syndrome&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc6570>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Breast carcinoma",
+    "efo_id": "EFO_0000305",
+    "timestamp": "2025-12-07T18:42:23.576667",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7b30>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Breast+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5ff50>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Lung carcinoma",
+    "efo_id": "EFO_0001071",
+    "timestamp": "2025-12-07T18:42:23.578821",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd3d0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Lung+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bec90>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Colorectal carcinoma",
+    "efo_id": "EFO_0005842",
+    "timestamp": "2025-12-07T18:42:23.580794",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45e50>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Colorectal+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d1a3c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Prostate carcinoma",
+    "efo_id": "EFO_0001663",
+    "timestamp": "2025-12-07T18:42:23.582871",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45970>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Prostate+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e479e0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Melanoma",
+    "efo_id": "EFO_0000756",
+    "timestamp": "2025-12-07T18:42:23.584870",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5e9c0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Melanoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107086120>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Leukemia",
+    "efo_id": "EFO_0000565",
+    "timestamp": "2025-12-07T18:42:23.586837",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7740>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Leukemia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7740>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Lymphoma",
+    "efo_id": "EFO_0000574",
+    "timestamp": "2025-12-07T18:42:23.588928",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070857f0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Lymphoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf0b0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Pancreatic carcinoma",
+    "efo_id": "EFO_0002618",
+    "timestamp": "2025-12-07T18:42:23.590946",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e458b0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Pancreatic+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47110>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Ovarian carcinoma",
+    "efo_id": "EFO_0001075",
+    "timestamp": "2025-12-07T18:42:23.593575",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e99be0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Ovarian+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47d10>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Glioblastoma",
+    "efo_id": "EFO_0000519",
+    "timestamp": "2025-12-07T18:42:23.596020",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070be480>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Glioblastoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf980>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Bladder carcinoma",
+    "efo_id": "EFO_0000292",
+    "timestamp": "2025-12-07T18:42:23.598111",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107087c80>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Bladder+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37f50>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Liver carcinoma",
+    "efo_id": "EFO_0000182",
+    "timestamp": "2025-12-07T18:42:23.600132",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc4680>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Liver+carcinoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107084d40>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Coronary artery disease",
+    "efo_id": "EFO_0001645",
+    "timestamp": "2025-12-07T18:42:23.602464",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc2c0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Coronary+artery+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d1acc0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Hypertension",
+    "efo_id": "EFO_0000537",
+    "timestamp": "2025-12-07T18:42:23.604683",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45070>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Hypertension&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47f20>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Heart failure",
+    "efo_id": "EFO_0003144",
+    "timestamp": "2025-12-07T18:42:23.606309",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45940>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Heart+failure&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e457f0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Atrial fibrillation",
+    "efo_id": "EFO_0000275",
+    "timestamp": "2025-12-07T18:42:23.608112",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070be450>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Atrial+fibrillation&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5f2c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Atherosclerosis",
+    "efo_id": "EFO_0000279",
+    "timestamp": "2025-12-07T18:42:23.610453",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070843b0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Atherosclerosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e9a270>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Myocardial infarction",
+    "efo_id": "EFO_0000612",
+    "timestamp": "2025-12-07T18:42:23.612247",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107087710>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Myocardial+infarction&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5f2c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Peripheral artery disease",
+    "efo_id": "EFO_1000822",
+    "timestamp": "2025-12-07T18:42:23.614287",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d19ac0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Peripheral+artery+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47140>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Cardiomyopathy",
+    "efo_id": "EFO_0000318",
+    "timestamp": "2025-12-07T18:42:23.616134",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106cdbd40>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Cardiomyopathy&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106cab680>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Pulmonary hypertension",
+    "efo_id": "EFO_0000828",
+    "timestamp": "2025-12-07T18:42:23.618551",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5ff50>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Pulmonary+hypertension&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d34d70>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Deep vein thrombosis",
+    "efo_id": "EFO_0003108",
+    "timestamp": "2025-12-07T18:42:23.620257",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070be600>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Deep+vein+thrombosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc6cf0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Type 2 diabetes mellitus",
+    "efo_id": "EFO_0001360",
+    "timestamp": "2025-12-07T18:42:23.622570",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45220>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Type+2+diabetes+mellitus&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd4c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Type 1 diabetes mellitus",
+    "efo_id": "EFO_0001359",
+    "timestamp": "2025-12-07T18:42:23.624978",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37aa0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Type+1+diabetes+mellitus&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d1af30>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Obesity",
+    "efo_id": "EFO_0001073",
+    "timestamp": "2025-12-07T18:42:23.627371",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107087650>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Obesity&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc4a70>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Hyperlipidemia",
+    "efo_id": "EFO_0003767",
+    "timestamp": "2025-12-07T18:42:23.629668",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47d10>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Hyperlipidemia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc6c90>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Metabolic syndrome",
+    "efo_id": "EFO_0000617",
+    "timestamp": "2025-12-07T18:42:23.632106",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5cda0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Metabolic+syndrome&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d18e90>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Gout",
+    "efo_id": "EFO_0000530",
+    "timestamp": "2025-12-07T18:42:23.634418",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bcda0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Gout&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bebd0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Hyperthyroidism",
+    "efo_id": "EFO_0004237",
+    "timestamp": "2025-12-07T18:42:23.636350",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bdaf0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Hyperthyroidism&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d353d0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Hypothyroidism",
+    "efo_id": "EFO_0004295",
+    "timestamp": "2025-12-07T18:42:23.641423",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106cd9310>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Hypothyroidism&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070867e0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Rheumatoid arthritis",
+    "efo_id": "EFO_0000685",
+    "timestamp": "2025-12-07T18:42:23.646104",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc56a0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Rheumatoid+arthritis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47b30>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Systemic lupus erythematosus",
+    "efo_id": "EFO_0002690",
+    "timestamp": "2025-12-07T18:42:23.647935",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc4920>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Systemic+lupus+erythematosus&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070878c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Psoriasis",
+    "efo_id": "EFO_0000676",
+    "timestamp": "2025-12-07T18:42:23.649779",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d19ee0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Psoriasis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37f50>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Inflammatory bowel disease",
+    "efo_id": "EFO_0003767",
+    "timestamp": "2025-12-07T18:42:23.651283",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc3e0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Inflammatory+bowel+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd790>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Crohn disease",
+    "efo_id": "EFO_0000384",
+    "timestamp": "2025-12-07T18:42:23.653055",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d34f80>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Crohn+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d1a300>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Ulcerative colitis",
+    "efo_id": "EFO_0000729",
+    "timestamp": "2025-12-07T18:42:23.654685",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070845c0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Ulcerative+colitis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc67e0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Graves' disease",
+    "efo_id": "EFO_0003885",
+    "timestamp": "2025-12-07T18:42:23.656243",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e462d0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Graves%27+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7b90>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Celiac disease",
+    "efo_id": "EFO_0000320",
+    "timestamp": "2025-12-07T18:42:23.658171",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5eed0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Celiac+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d199d0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Major depressive disorder",
+    "efo_id": "EFO_0003761",
+    "timestamp": "2025-12-07T18:42:23.660051",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e447a0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Major+depressive+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45ac0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Schizophrenia",
+    "efo_id": "EFO_0000692",
+    "timestamp": "2025-12-07T18:42:23.661515",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd0d0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Schizophrenia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106cab620>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Bipolar disorder",
+    "efo_id": "EFO_0000289",
+    "timestamp": "2025-12-07T18:42:23.663112",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107086330>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Bipolar+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e466c0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Anxiety disorder",
+    "efo_id": "EFO_0003086",
+    "timestamp": "2025-12-07T18:42:23.664593",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e471d0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Anxiety+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc5820>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Obsessive compulsive disorder",
+    "efo_id": "EFO_0000621",
+    "timestamp": "2025-12-07T18:42:23.666761",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc6e40>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Obsessive+compulsive+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47d40>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Post-traumatic stress disorder",
+    "efo_id": "EFO_0004241",
+    "timestamp": "2025-12-07T18:42:23.669100",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e46ea0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Post-traumatic+stress+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107087200>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Attention deficit hyperactivity disorder",
+    "efo_id": "EFO_0003888",
+    "timestamp": "2025-12-07T18:42:23.671209",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d18ef0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Attention+deficit+hyperactivity+disorder&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d34980>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Asthma",
+    "efo_id": "EFO_0000270",
+    "timestamp": "2025-12-07T18:42:23.673372",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d19580>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Asthma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5cfe0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Chronic obstructive pulmonary disease",
+    "efo_id": "EFO_0000341",
+    "timestamp": "2025-12-07T18:42:23.675399",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e478f0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Chronic+obstructive+pulmonary+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e46000>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Pulmonary fibrosis",
+    "efo_id": "EFO_0001645",
+    "timestamp": "2025-12-07T18:42:23.677825",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc7f20>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Pulmonary+fibrosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc64b0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Cystic fibrosis",
+    "efo_id": "EFO_0000339",
+    "timestamp": "2025-12-07T18:42:23.680010",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e44d10>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Cystic+fibrosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e46900>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Pneumonia",
+    "efo_id": "EFO_0000649",
+    "timestamp": "2025-12-07T18:42:23.681983",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5ec00>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Pneumonia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106cab620>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Sleep apnea",
+    "efo_id": "EFO_0004753",
+    "timestamp": "2025-12-07T18:42:23.684041",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e99820>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Sleep+apnea&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d379e0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "HIV infection",
+    "efo_id": "EFO_0001378",
+    "timestamp": "2025-12-07T18:42:23.686206",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107086330>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=HIV+infection&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e44fb0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Hepatitis C",
+    "efo_id": "EFO_0001488",
+    "timestamp": "2025-12-07T18:42:23.688198",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47140>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Hepatitis+C&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf980>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Tuberculosis",
+    "efo_id": "EFO_0000721",
+    "timestamp": "2025-12-07T18:42:23.690161",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e99b20>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Tuberculosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d18410>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Malaria",
+    "efo_id": "EFO_0000572",
+    "timestamp": "2025-12-07T18:42:23.693353",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bd370>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Malaria&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d34ec0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Influenza",
+    "efo_id": "EFO_0009681",
+    "timestamp": "2025-12-07T18:42:23.695678",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e47860>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Influenza&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45430>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Chronic kidney disease",
+    "efo_id": "EFO_0003884",
+    "timestamp": "2025-12-07T18:42:23.697700",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070867e0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Chronic+kidney+disease&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d37680>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Osteoarthritis",
+    "efo_id": "EFO_0000555",
+    "timestamp": "2025-12-07T18:42:23.700163",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bc8f0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Osteoarthritis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d1af30>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Osteoporosis",
+    "efo_id": "EFO_0000693",
+    "timestamp": "2025-12-07T18:42:23.702482",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45070>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Osteoporosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e467b0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Glaucoma",
+    "efo_id": "EFO_0000524",
+    "timestamp": "2025-12-07T18:42:23.704482",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d19ee0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Glaucoma&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bf050>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Macular degeneration",
+    "efo_id": "EFO_0001365",
+    "timestamp": "2025-12-07T18:42:23.706565",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d36300>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Macular+degeneration&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107086780>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Chronic pain",
+    "efo_id": "EFO_0004761",
+    "timestamp": "2025-12-07T18:42:23.708624",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e468a0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Chronic+pain&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x107087200>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Fibromyalgia",
+    "efo_id": "EFO_0003843",
+    "timestamp": "2025-12-07T18:42:23.711272",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106bbffb0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Fibromyalgia&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bccb0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Endometriosis",
+    "efo_id": "EFO_0001065",
+    "timestamp": "2025-12-07T18:42:23.713061",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc79e0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Endometriosis&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106e45e50>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Polycystic ovary syndrome",
+    "efo_id": "EFO_0000660",
+    "timestamp": "2025-12-07T18:42:23.714824",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d5dbb0>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Polycystic+ovary+syndrome&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106dc79e0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  },
+  {
+    "disease_name": "Erectile dysfunction",
+    "efo_id": "EFO_1001486",
+    "timestamp": "2025-12-07T18:42:23.717048",
+    "disease_data": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='api.platform.opentargets.org', port=443): Max retries exceeded with url: /api/v4/graphql (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x1070bca70>: Failed to resolve 'api.platform.opentargets.org' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "clinical_trials": {
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='clinicaltrials.gov', port=443): Max retries exceeded with url: /api/query/study_fields?expr=Erectile+dysfunction&fields=NCTId%2CCondition%2CPhase%2COverallStatus%2CBriefTitle&fmt=json&max_rnk=20 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106d351f0>: Failed to resolve 'clinicaltrials.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  }
+]
