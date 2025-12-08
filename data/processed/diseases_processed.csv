@@ -1,0 +1,82 @@
+disease_name,efo_id,targets_count,known_drugs_count,clinical_trials_count,has_description
+Alzheimer disease,EFO_0000249,0,0,0,False
+Parkinson disease,EFO_0002508,0,0,0,False
+Multiple sclerosis,EFO_0003885,0,0,0,False
+Epilepsy,EFO_0000474,0,0,0,False
+Amyotrophic lateral sclerosis,EFO_0000253,0,0,0,False
+Migraine,EFO_0003913,0,0,0,False
+Stroke,EFO_0000712,0,0,0,False
+Huntington disease,EFO_0000549,0,0,0,False
+Dementia,EFO_0000249,0,0,0,False
+Peripheral neuropathy,EFO_0004268,0,0,0,False
+Spinal cord injury,EFO_0009690,0,0,0,False
+Cerebral palsy,EFO_0000330,0,0,0,False
+Myasthenia gravis,EFO_0000915,0,0,0,False
+Neuropathic pain,EFO_1001459,0,0,0,False
+Restless legs syndrome,EFO_0004609,0,0,0,False
+Breast carcinoma,EFO_0000305,0,0,0,False
+Lung carcinoma,EFO_0001071,0,0,0,False
+Colorectal carcinoma,EFO_0005842,0,0,0,False
+Prostate carcinoma,EFO_0001663,0,0,0,False
+Melanoma,EFO_0000756,0,0,0,False
+Leukemia,EFO_0000565,0,0,0,False
+Lymphoma,EFO_0000574,0,0,0,False
+Pancreatic carcinoma,EFO_0002618,0,0,0,False
+Ovarian carcinoma,EFO_0001075,0,0,0,False
+Glioblastoma,EFO_0000519,0,0,0,False
+Bladder carcinoma,EFO_0000292,0,0,0,False
+Liver carcinoma,EFO_0000182,0,0,0,False
+Coronary artery disease,EFO_0001645,0,0,0,False
+Hypertension,EFO_0000537,0,0,0,False
+Heart failure,EFO_0003144,0,0,0,False
+Atrial fibrillation,EFO_0000275,0,0,0,False
+Atherosclerosis,EFO_0000279,0,0,0,False
+Myocardial infarction,EFO_0000612,0,0,0,False
+Peripheral artery disease,EFO_1000822,0,0,0,False
+Cardiomyopathy,EFO_0000318,0,0,0,False
+Pulmonary hypertension,EFO_0000828,0,0,0,False
+Deep vein thrombosis,EFO_0003108,0,0,0,False
+Type 2 diabetes mellitus,EFO_0001360,0,0,0,False
+Type 1 diabetes mellitus,EFO_0001359,0,0,0,False
+Obesity,EFO_0001073,0,0,0,False
+Hyperlipidemia,EFO_0003767,0,0,0,False
+Metabolic syndrome,EFO_0000617,0,0,0,False
+Gout,EFO_0000530,0,0,0,False
+Hyperthyroidism,EFO_0004237,0,0,0,False
+Hypothyroidism,EFO_0004295,0,0,0,False
+Rheumatoid arthritis,EFO_0000685,0,0,0,False
+Systemic lupus erythematosus,EFO_0002690,0,0,0,False
+Psoriasis,EFO_0000676,0,0,0,False
+Inflammatory bowel disease,EFO_0003767,0,0,0,False
+Crohn disease,EFO_0000384,0,0,0,False
+Ulcerative colitis,EFO_0000729,0,0,0,False
+Graves' disease,EFO_0003885,0,0,0,False
+Celiac disease,EFO_0000320,0,0,0,False
+Major depressive disorder,EFO_0003761,0,0,0,False
+Schizophrenia,EFO_0000692,0,0,0,False
+Bipolar disorder,EFO_0000289,0,0,0,False
+Anxiety disorder,EFO_0003086,0,0,0,False
+Obsessive compulsive disorder,EFO_0000621,0,0,0,False
+Post-traumatic stress disorder,EFO_0004241,0,0,0,False
+Attention deficit hyperactivity disorder,EFO_0003888,0,0,0,False
+Asthma,EFO_0000270,0,0,0,False
+Chronic obstructive pulmonary disease,EFO_0000341,0,0,0,False
+Pulmonary fibrosis,EFO_0001645,0,0,0,False
+Cystic fibrosis,EFO_0000339,0,0,0,False
+Pneumonia,EFO_0000649,0,0,0,False
+Sleep apnea,EFO_0004753,0,0,0,False
+HIV infection,EFO_0001378,0,0,0,False
+Hepatitis C,EFO_0001488,0,0,0,False
+Tuberculosis,EFO_0000721,0,0,0,False
+Malaria,EFO_0000572,0,0,0,False
+Influenza,EFO_0009681,0,0,0,False
+Chronic kidney disease,EFO_0003884,0,0,0,False
+Osteoarthritis,EFO_0000555,0,0,0,False
+Osteoporosis,EFO_0000693,0,0,0,False
+Glaucoma,EFO_0000524,0,0,0,False
+Macular degeneration,EFO_0001365,0,0,0,False
+Chronic pain,EFO_0004761,0,0,0,False
+Fibromyalgia,EFO_0003843,0,0,0,False
+Endometriosis,EFO_0001065,0,0,0,False
+Polycystic ovary syndrome,EFO_0000660,0,0,0,False
+Erectile dysfunction,EFO_1001486,0,0,0,False
