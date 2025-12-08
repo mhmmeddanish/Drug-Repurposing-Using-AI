@@ -5,7 +5,7 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 
 # Chemistry and biology
-rdkit==2023.3.2
+rdkit
 biopython==1.81
 chembl-webresource-client==0.10.8
 
