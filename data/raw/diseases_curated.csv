@@ -1,0 +1,82 @@
+name,efo_id,category
+Alzheimer disease,EFO_0000249,neurological
+Parkinson disease,EFO_0002508,neurological
+Multiple sclerosis,EFO_0003885,neurological
+Epilepsy,EFO_0000474,neurological
+Amyotrophic lateral sclerosis,EFO_0000253,neurological
+Migraine,EFO_0003913,neurological
+Stroke,EFO_0000712,neurological
+Huntington disease,EFO_0000549,neurological
+Dementia,EFO_0000249,neurological
+Peripheral neuropathy,EFO_0004268,neurological
+Spinal cord injury,EFO_0009690,neurological
+Cerebral palsy,EFO_0000330,neurological
+Myasthenia gravis,EFO_0000915,neurological
+Neuropathic pain,EFO_1001459,neurological
+Restless legs syndrome,EFO_0004609,neurological
+Breast carcinoma,EFO_0000305,cancer
+Lung carcinoma,EFO_0001071,cancer
+Colorectal carcinoma,EFO_0005842,cancer
+Prostate carcinoma,EFO_0001663,cancer
+Melanoma,EFO_0000756,cancer
+Leukemia,EFO_0000565,cancer
+Lymphoma,EFO_0000574,cancer
+Pancreatic carcinoma,EFO_0002618,cancer
+Ovarian carcinoma,EFO_0001075,cancer
+Glioblastoma,EFO_0000519,cancer
+Bladder carcinoma,EFO_0000292,cancer
+Liver carcinoma,EFO_0000182,cancer
+Coronary artery disease,EFO_0001645,cardiovascular
+Hypertension,EFO_0000537,cardiovascular
+Heart failure,EFO_0003144,cardiovascular
+Atrial fibrillation,EFO_0000275,cardiovascular
+Atherosclerosis,EFO_0000279,cardiovascular
+Myocardial infarction,EFO_0000612,cardiovascular
+Peripheral artery disease,EFO_1000822,cardiovascular
+Cardiomyopathy,EFO_0000318,cardiovascular
+Pulmonary hypertension,EFO_0000828,cardiovascular
+Deep vein thrombosis,EFO_0003108,cardiovascular
+Type 2 diabetes mellitus,EFO_0001360,metabolic
+Type 1 diabetes mellitus,EFO_0001359,metabolic
+Obesity,EFO_0001073,metabolic
+Hyperlipidemia,EFO_0003767,metabolic
+Metabolic syndrome,EFO_0000617,metabolic
+Gout,EFO_0000530,metabolic
+Hyperthyroidism,EFO_0004237,metabolic
+Hypothyroidism,EFO_0004295,metabolic
+Rheumatoid arthritis,EFO_0000685,autoimmune
+Systemic lupus erythematosus,EFO_0002690,autoimmune
+Psoriasis,EFO_0000676,autoimmune
+Inflammatory bowel disease,EFO_0003767,autoimmune
+Crohn disease,EFO_0000384,autoimmune
+Ulcerative colitis,EFO_0000729,autoimmune
+Graves' disease,EFO_0003885,autoimmune
+Celiac disease,EFO_0000320,autoimmune
+Major depressive disorder,EFO_0003761,psychiatric
+Schizophrenia,EFO_0000692,psychiatric
+Bipolar disorder,EFO_0000289,psychiatric
+Anxiety disorder,EFO_0003086,psychiatric
+Obsessive compulsive disorder,EFO_0000621,psychiatric
+Post-traumatic stress disorder,EFO_0004241,psychiatric
+Attention deficit hyperactivity disorder,EFO_0003888,psychiatric
+Asthma,EFO_0000270,respiratory
+Chronic obstructive pulmonary disease,EFO_0000341,respiratory
+Pulmonary fibrosis,EFO_0001645,respiratory
+Cystic fibrosis,EFO_0000339,respiratory
+Pneumonia,EFO_0000649,respiratory
+Sleep apnea,EFO_0004753,respiratory
+HIV infection,EFO_0001378,infectious
+Hepatitis C,EFO_0001488,infectious
+Tuberculosis,EFO_0000721,infectious
+Malaria,EFO_0000572,infectious
+Influenza,EFO_0009681,infectious
+Chronic kidney disease,EFO_0003884,renal
+Osteoarthritis,EFO_0000555,musculoskeletal
+Osteoporosis,EFO_0000693,musculoskeletal
+Glaucoma,EFO_0000524,ophthalmologic
+Macular degeneration,EFO_0001365,ophthalmologic
+Chronic pain,EFO_0004761,pain
+Fibromyalgia,EFO_0003843,musculoskeletal
+Endometriosis,EFO_0001065,gynecological
+Polycystic ovary syndrome,EFO_0000660,gynecological
+Erectile dysfunction,EFO_1001486,urological
