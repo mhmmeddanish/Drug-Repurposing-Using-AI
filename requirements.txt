@@ -6,6 +6,5 @@ pandas
 plotly
 python-dotenv
 pymed==0.8.9
-chembl-webresource-client==0.10.8
 rdkit
 
