@@ -206,8 +206,8 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                     mw = r['molecular_weight']
                     if isinstance(mw, (int, float)) and mw > 0:
                         response += f"   • Molecular Weight: {mw:.2f}\n"
-                    response += f"   • Drug-like: {'✅' if r['passes_lipinski'] else '❌'}\n"
-                    response += f"   • BBB Permeable: {'✅' if r['bbb_permeable'] else '❌'}\n\n"
+                    response += f"   • Drug-like: {'' if r['passes_lipinski'] else ''}\n"
+                    response += f"   • BBB Permeable: {'' if r['bbb_permeable'] else ''}\n\n"
                 
                 response += f"\n💡 Try the **🔍 Smart Search** tab for detailed results with charts!"
                 return response
@@ -243,7 +243,7 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                         confidence = (1 - distance) * 100
                         response += f"{i}. **{metadata['disease_name']}** - {confidence:.1f}% confidence\n"
                     
-                    response += "\n💡 Use the **🔍 Smart Search** tab to explore more!"
+                    response += "\n Use the **🔍 Smart Search** tab to explore more!"
                     return response
     
     if any(word in user_lower for word in ['how', 'explain', 'tell']):
@@ -310,7 +310,7 @@ Try asking about any disease!"""
                     for r in results[:5]:
                         response += f"**{r['rank']}. {r['drug_name']}** - {r['confidence']}% confidence\n"
                     
-                    response += f"\n💡 Want to know more about {disease_name}? Ask: *'What is {disease_name}?'*"
+                    response += f"\n Want to know more about {disease_name}? Ask: *'What is {disease_name}?'*"
                     return response
     
     return """I'm here to help with drug repurposing! 
@@ -392,7 +392,7 @@ if page == " Smart Search":
                     st.session_state.search_results = results
                     
                     if results:
-                        st.success(f"✅ Found {len(results)} potential drug candidates!")
+                        st.success(f" Found {len(results)} potential drug candidates!")
                         
                         # Display results
                         for result in results:
@@ -401,13 +401,10 @@ if page == " Smart Search":
                             # Confidence color
                             if confidence >= 75:
                                 conf_class = "confidence-high"
-                                emoji = "🟢"
                             elif confidence >= 60:
                                 conf_class = "confidence-medium"
-                                emoji = "🟡"
                             else:
                                 conf_class = "confidence-low"
-                                emoji = "🔴"
                             
                             with st.expander(f"{emoji} {result['rank']}. {result['drug_name']} - {confidence}% confidence"):
                                 col1, col2, col3 = st.columns(3)
@@ -423,13 +420,13 @@ if page == " Smart Search":
                                     st.caption(f"Clinical Trials: {result['clinical_trials']}")
                                 
                                 with col3:
-                                    lipinski = "✅ Yes" if result['passes_lipinski'] else "❌ No"
-                                    bbb = "✅ Yes" if result['bbb_permeable'] else "❌ No"
+                                    lipinski = " Yes" if result['passes_lipinski'] else " No"
+                                    bbb = " Yes" if result['bbb_permeable'] else " No"
                                     st.metric("Drug-like", lipinski)
                                     st.caption(f"BBB Permeable: {bbb}")
                                 
                                 if result['pubchem_cid'] and result['pubchem_cid'] != "unknown":
-                                    st.markdown(f"[🔗 View on PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/{result['pubchem_cid']})")
+                                    st.markdown(f"[ View on PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/{result['pubchem_cid']})")
                         
                         # Visualization
                         st.markdown("---")
@@ -478,7 +475,7 @@ if page == " Smart Search":
                                 n_results=top_k
                             )
                             
-                            st.success(f"✅ Found {len(results['metadatas'][0])} potential applications for **{exact_match}**")
+                            st.success(f" Found {len(results['metadatas'][0])} potential applications for **{exact_match}**")
                             
                             for i, (metadata, distance) in enumerate(zip(
                                 results['metadatas'][0],
@@ -530,7 +527,7 @@ if page == " Smart Search":
                                 n_results=top_k + 1
                             )
                             
-                            st.success(f"✅ Drugs similar to **{exact_match}**:")
+                            st.success(f" Drugs similar to **{exact_match}**:")
                             
                             # Skip first result (the drug itself)
                             for i, (metadata, distance) in enumerate(zip(
