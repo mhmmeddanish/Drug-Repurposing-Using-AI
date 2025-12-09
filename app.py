@@ -1,5 +1,5 @@
 """
-🧬 Drug Repurposing AI - Streamlit Interface
+🧬 Drug Repurposing Using AI - Streamlit Interface
 Interactive search with AI chatbot assistance
 """
 
