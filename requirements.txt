@@ -1,7 +1,7 @@
-plotly
-rdkit
-chembl-webresource-client==0.10.8
-pymed==0.8.9
-chromadb==0.4.22
-streamlit==1.40.0           
+streamlit==1.32.2
+chromadb==1.1.1
 numpy==1.26.4
+pydantic==1.10.12
+pandas
+plotly
+python-dotenv
