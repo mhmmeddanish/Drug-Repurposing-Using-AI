@@ -14,20 +14,16 @@ import plotly.graph_objects as go
 from datetime import datetime
 import os
 
-# Get the absolute path to the project root
 PROJECT_ROOT = Path(__file__).parent.absolute()
 
-# Add scripts to path
 sys.path.append(str(PROJECT_ROOT / 'scripts'))
 
-# Import after adding to path
 try:
     from search_utils import SmartSearch
 except ImportError:
-    st.error("❌ Cannot import search_utils. Make sure scripts/search_utils.py exists!")
+    st.error(" Cannot import search_utils. Make sure scripts/search_utils.py exists!")
     st.stop()
 
-# Page config
 st.set_page_config(
     page_title="Drug Repurposing AI",
     page_icon="💊",
@@ -35,7 +31,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
 st.markdown("""
 <style>
     .main-header {
@@ -63,7 +58,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Initialize session state
 if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 if 'search_results' not in st.session_state:
@@ -72,14 +66,14 @@ if 'search_results' not in st.session_state:
 @st.cache_resource
 def load_database():
     """Load ChromaDB database (cached)"""
-    # Use absolute path
+    
     db_path = PROJECT_ROOT / "data" / "vector_db"
     
     if not db_path.exists():
-        st.error(f"❌ Database not found!")
+        st.error(f" Database not found!")
         st.error(f"Expected location: `{db_path}`")
         
-        st.info("### 🚀 Setup Steps:")
+        st.info("###  Setup Steps:")
         st.code("""
             # Run these commands from your project root:
             cd """ + str(PROJECT_ROOT) + """
@@ -107,56 +101,20 @@ def load_database():
         return drug_collection, disease_collection, smart_search
     
     except Exception as e:
-        st.error(f"❌ Error loading database: {str(e)}")
+        st.error(f" Error loading database: {str(e)}")
         st.stop()
-    # @st.cache_resource
-    # def load_database():
-    #     """Load ChromaDB database (cached)"""
-    #     db_path = PROJECT_ROOT / "data" / "vector_db"
-        
-    #     if not db_path.exists():
-    #         st.error(f"❌ Database not found!")
-    #         st.error(f"Expected location: `{db_path}`")
-    #         ...
-    #         st.stop()
-        
-    #     try:
-    #         client = chromadb.PersistentClient(
-    #             path=str(db_path),
-    #             settings=Settings(anonymized_telemetry=False)
-    #         )
-    
-    #         # 👇 TEMP: show what collections exist
-    #         collections = [c.name for c in client.list_collections()]
-    #         st.write("Available collections:", collections)
-    
-    #         drug_collection = client.get_collection("drugs")
-    #         disease_collection = client.get_collection("diseases")
-    
-    #         smart_search = SmartSearch(drug_collection, disease_collection)
-    #         return drug_collection, disease_collection, smart_search
-    
-    #     except Exception as e:
-    #         import traceback
-    #         st.error(f"❌ Error loading database: {repr(e)}")
-    #         st.error("Stack trace:")
-    #         st.code(traceback.format_exc())
-    #         st.stop()
 
-# ⭐ MOVE THIS FUNCTION HERE - BEFORE IT'S USED ⭐
 def generate_smart_response(user_input, smart_search, drug_collection, disease_collection):
     """Generate intelligent responses based on user input"""
     import re
     
     user_lower = user_input.lower().strip()
     
-    # Remove common filler words
     filler_words = ['what', 'is', 'a', 'an', 'the', 'about', 'tell', 'me', 'can', 'you', 'help', 'with', 'for']
     words = user_lower.split()
     clean_words = [w for w in words if w not in filler_words]
     clean_query = ' '.join(clean_words)
     
-    # Enhanced disease keywords with fuzzy matching
     disease_patterns = {
         'alzheimer': {
             'keywords': ['alzheimer', 'alzhimer', 'alziehmer', 'alzheimers', 'dementia', 'memory loss', 'cognitive decline'],
@@ -245,7 +203,6 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                 for r in results[:5]:
                     response += f"**{r['rank']}. {r['drug_name']}** - Confidence: {r['confidence']}%\n"
                     
-                    # Add properties
                     mw = r['molecular_weight']
                     if isinstance(mw, (int, float)) and mw > 0:
                         response += f"   • Molecular Weight: {mw:.2f}\n"
@@ -255,7 +212,6 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                 response += f"\n💡 Try the **🔍 Smart Search** tab for detailed results with charts!"
                 return response
     
-    # Check if user is asking about a specific drug
     drug_names_common = [
         'aspirin', 'ibuprofen', 'metformin', 'paracetamol', 'acetaminophen',
         'insulin', 'atorvastatin', 'lisinopril', 'amlodipine', 'metoprolol',
@@ -264,11 +220,9 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
     
     for drug in drug_names_common:
         if drug in user_lower:
-            # Find the drug (case-insensitive)
             exact_match, suggestions = smart_search.find_drug(drug)
             
             if exact_match:
-                # Get potential applications
                 drug_result = drug_collection.get(
                     where={"drug_name": exact_match},
                     include=["embeddings"]
@@ -292,7 +246,6 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                     response += "\n💡 Use the **🔍 Smart Search** tab to explore more!"
                     return response
     
-    # Check for general questions about the system
     if any(word in user_lower for word in ['how', 'explain', 'tell']):
         if 'drug repurposing' in user_lower or 'repurpose' in user_lower or 'work' in user_lower:
             return """**About Drug Repurposing:**
@@ -300,10 +253,10 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
 Drug repurposing (or repositioning) is finding new therapeutic uses for existing drugs. 
 
 **Why it matters:**
-- ⚡ **Faster** - Years instead of decades
-- 💰 **Cheaper** - Millions vs billions of dollars  
-- ✅ **Safer** - Drugs already passed safety trials
-- 🤖 **AI-powered** - Finds hidden connections in data
+-  **Faster** - Years instead of decades
+-  **Cheaper** - Millions vs billions of dollars  
+-  **Safer** - Drugs already passed safety trials
+-  **AI-powered** - Finds hidden connections in data
 
 **How this system works:**
 1. Drugs and diseases are converted to AI embeddings (vectors)
@@ -319,22 +272,22 @@ Drug repurposing (or repositioning) is finding new therapeutic uses for existing
         elif 'use' in user_lower or 'help' in user_lower:
             return """**How to use this system:**
 
-**🔍 Smart Search Tab:**
+** Smart Search Tab:**
 - Find drugs for diseases
 - Find diseases for drugs  
 - Find similar drugs
 - Case-insensitive & fuzzy matching!
 
-**💬 AI Assistant (here!):**
+** AI Assistant (here!):**
 - Ask about diseases: *"What is Alzheimer's?"*
 - Ask about drugs: *"What can Metformin treat?"*
 - Get drug suggestions: *"Drugs for diabetes"*
 
-**📊 Analytics Tab:**
+** Analytics Tab:**
 - View database statistics
 - See drug property distributions
 
-**📚 Database Explorer:**
+** Database Explorer:**
 - Browse all drugs and diseases
 
 **Example questions:**
@@ -345,12 +298,9 @@ Drug repurposing (or repositioning) is finding new therapeutic uses for existing
 
 Try asking about any disease!"""
     
-    # If no specific pattern matched, check if it's just a disease name
-    if len(clean_words) <= 3:  # Short query, probably just a disease name
-        # Try searching for it as a disease
+    if len(clean_words) <= 3:  
         for disease_key, disease_info in disease_patterns.items():
             for keyword in disease_info['keywords']:
-                # More lenient matching for short queries
                 if keyword in user_lower or user_lower in keyword:
                     results = smart_search.search_drugs_fuzzy(disease_info['search_query'], top_k=5)
                     
@@ -363,8 +313,7 @@ Try asking about any disease!"""
                     response += f"\n💡 Want to know more about {disease_name}? Ask: *'What is {disease_name}?'*"
                     return response
     
-    # Default response with helpful examples
-    return """I'm here to help with drug repurposing! 🤖
+    return """I'm here to help with drug repurposing! 
 
 **I can answer:**
 - "What drugs treat Alzheimer's?" 
@@ -380,26 +329,21 @@ Try asking about any disease!"""
 **Pro tip:** The **🔍 Smart Search** tab gives you detailed results with molecular properties and confidence scores!
 
 Try asking about a disease or drug!"""
-# Load database
 drug_collection, disease_collection, smart_search = load_database()
 
-# Header
 st.markdown('<h1 class="main-header">🧬 Drug Repurposing AI</h1>', unsafe_allow_html=True)
 st.markdown("### Discover new therapeutic uses for existing drugs using AI")
 
-# Sidebar
 with st.sidebar:
-    # st.image("https://www.clipartmax.com/middle/m2i8d3m2i8Z5H7N4_repurposing-drugs-icon-recycling-symbol", width=80)
     st.title("Navigation")
     
     page = st.radio(
         "Choose a feature:",
-        ["🔍 Smart Search", "💬 AI Assistant", "📊 Analytics", "📚 Database Explorer"]
+        [" Smart Search", " AI Assistant", " Analytics", " Database Explorer"]
     )
     
     st.markdown("---")
     
-    # Stats
     drug_count = drug_collection.count()
     disease_count = disease_collection.count()
     
@@ -407,7 +351,7 @@ with st.sidebar:
     st.metric("Total Diseases", disease_count)
     
     st.markdown("---")
-    st.markdown("### 🎯 Quick Tips")
+    st.markdown("### � Quick Tips")
     st.info("""
     - Search is case-insensitive!
     - Type partial names (e.g., "alzheim")
@@ -415,8 +359,8 @@ with st.sidebar:
     """)
 
 # Page: Smart Search
-if page == "🔍 Smart Search":
-    st.header("🔍 Intelligent Drug Search")
+if page == " Smart Search":
+    st.header(" Intelligent Drug Search")
     
     col1, col2 = st.columns([2, 1])
     
@@ -440,9 +384,9 @@ if page == "🔍 Smart Search":
             key="disease_search"
         )
         
-        if st.button("🚀 Search", type="primary", use_container_width=True):
+        if st.button(" Search", type="primary", use_container_width=True):
             if query:
-                with st.spinner("🧠 AI is analyzing..."):
+                with st.spinner(" AI is analyzing..."):
                     # Natural language search - no exact match needed!
                     results = smart_search.search_drugs_fuzzy(query, top_k=top_k)
                     st.session_state.search_results = results
@@ -505,16 +449,16 @@ if page == "🔍 Smart Search":
                     else:
                         st.warning("No results found. Try a different query!")
             else:
-                st.warning("⚠️ Please enter a search query!")
+                st.warning(" Please enter a search query!!")
     
     elif search_type == "🦠 Diseases for a Drug":
         drug_query = st.text_input(
-            "🔎 Enter drug name:",
+            " Enter drug name:",
             placeholder="e.g., aspirin, metformin, ibuprofen...",
             key="drug_search"
         )
         
-        if st.button("🚀 Search", type="primary", use_container_width=True):
+        if st.button(" Search", type="primary", use_container_width=True):
             if drug_query:
                 with st.spinner("🔍 Searching..."):
                     # Find drug with fuzzy matching
@@ -554,22 +498,22 @@ if page == "🔍 Smart Search":
                                         st.caption(f"Associated Targets: {metadata['targets_count']}")
                     
                     elif suggestions:
-                        st.warning(f"⚠️ Drug '{drug_query}' not found. Did you mean:")
+                        st.warning(f" Drug '{drug_query}' not found. Did you mean:")
                         for sug in suggestions:
                             st.write(f"- {sug}")
                     else:
-                        st.error(f"❌ No drug found matching '{drug_query}'")
+                        st.error(f" No drug found matching '{drug_query}'")
             else:
-                st.warning("⚠️ Please enter a drug name!")
+                st.warning(" Please enter a drug name!")
     
     else:  # Similar Drugs
         drug_query = st.text_input(
-            "🔎 Enter drug name:",
+            " Enter drug name:",
             placeholder="e.g., aspirin, metformin...",
             key="similar_search"
         )
         
-        if st.button("🚀 Find Similar", type="primary", use_container_width=True):
+        if st.button(" Find Similar", type="primary", use_container_width=True):
             if drug_query:
                 with st.spinner("🔍 Searching..."):
                     exact_match, suggestions = smart_search.find_drug(drug_query)
@@ -598,13 +542,13 @@ if page == "🔍 Smart Search":
                                 st.write(f"{i}. **{metadata['drug_name']}** - Similarity: {similarity:.1f}%")
                     
                     elif suggestions:
-                        st.warning(f"⚠️ Drug '{drug_query}' not found. Did you mean:")
+                        st.warning(f" Drug '{drug_query}' not found. Did you mean:")
                         for sug in suggestions:
                             st.write(f"- {sug}")
 
 # Page: AI Assistant
-elif page == "💬 AI Assistant":
-    st.header("💬 AI Drug Repurposing Assistant")
+elif page == " AI Assistant":
+    st.header(" AI Drug Repurposing Assistant")
     st.markdown("Ask me anything about drugs, diseases, or drug repurposing!")
     
     # Simple chatbot without external APIs
@@ -646,8 +590,8 @@ elif page == "💬 AI Assistant":
             st.rerun()
 
 # Page: Analytics
-elif page == "📊 Analytics":
-    st.header("📊 Database Analytics")
+elif page == " Analytics":
+    st.header(" Database Analytics")
     
     # Get all drugs
     all_drugs = drug_collection.get(include=["metadatas"])
@@ -693,7 +637,7 @@ elif page == "📊 Analytics":
 
 # Page: Database Explorer
 else:
-    st.header("📚 Database Explorer")
+    st.header(" Database Explorer")
     
     tab1, tab2 = st.tabs(["💊 Drugs", "🦠 Diseases"])
     
@@ -723,7 +667,7 @@ else:
         disease_list = [m.get('disease_name', 'Unknown') for m in all_diseases['metadatas']]
         
         # Search filter
-        search_filter = st.text_input("🔍 Filter diseases:", placeholder="Type to filter...", key="disease_filter")
+        search_filter = st.text_input(" Filter diseases:", placeholder="Type to filter...", key="disease_filter")
         
         if search_filter:
             filtered = [d for d in disease_list if search_filter.lower() in d.lower()]
