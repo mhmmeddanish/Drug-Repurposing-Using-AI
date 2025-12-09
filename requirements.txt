@@ -2,3 +2,4 @@
 rdkit
 chembl-webresource-client==0.10.8
 pymed==0.8.9
+chromadb
