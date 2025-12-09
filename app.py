@@ -358,7 +358,6 @@ with st.sidebar:
     - Ask the AI assistant anything!
     """)
 
-# Page: Smart Search
 if page == " Smart Search":
     st.header(" Intelligent Drug Search")
     
@@ -376,10 +375,9 @@ if page == " Smart Search":
     
     st.markdown("---")
     
-    # Search interface
     if search_type == " Drugs for a Disease":
         query = st.text_input(
-            " Enter disease name or description:",
+            "Enter disease name or description:",
             placeholder="e.g., alzheimer, diabetes, cancer, heart disease...",
             key="disease_search"
         )
@@ -387,18 +385,15 @@ if page == " Smart Search":
         if st.button(" Search", type="primary", use_container_width=True):
             if query:
                 with st.spinner(" AI is analyzing..."):
-                    # Natural language search - no exact match needed!
                     results = smart_search.search_drugs_fuzzy(query, top_k=top_k)
                     st.session_state.search_results = results
                     
                     if results:
                         st.success(f" Found {len(results)} potential drug candidates!")
                         
-                        # Display results
                         for result in results:
                             confidence = result['confidence']
                             
-                            # Confidence color
                             if confidence >= 75:
                                 conf_class = "confidence-high"
                             elif confidence >= 60:
@@ -428,7 +423,6 @@ if page == " Smart Search":
                                 if result['pubchem_cid'] and result['pubchem_cid'] != "unknown":
                                     st.markdown(f"[ View on PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/{result['pubchem_cid']})")
                         
-                        # Visualization
                         st.markdown("---")
                         st.subheader(" Confidence Distribution")
                         
@@ -458,18 +452,15 @@ if page == " Smart Search":
         if st.button(" Search", type="primary", use_container_width=True):
             if drug_query:
                 with st.spinner(" Searching..."):
-                    # Find drug with fuzzy matching
                     exact_match, suggestions = smart_search.find_drug(drug_query)
                     
                     if exact_match:
-                        # Get drug embedding
                         drug_result = drug_collection.get(
                             where={"drug_name": exact_match},
                             include=["embeddings"]
                         )
                         
                         if drug_result['ids'] and len(drug_result['ids']) > 0:
-                            # Search diseases
                             results = disease_collection.query(
                                 query_embeddings=[drug_result['embeddings'][0]],
                                 n_results=top_k
@@ -503,7 +494,7 @@ if page == " Smart Search":
             else:
                 st.warning(" Please enter a drug name!")
     
-    else:  # Similar Drugs
+    else:  
         drug_query = st.text_input(
             " Enter drug name:",
             placeholder="e.g., aspirin, metformin...",
@@ -543,24 +534,20 @@ if page == " Smart Search":
                         for sug in suggestions:
                             st.write(f"- {sug}")
 
-# Page: AI Assistant
 elif page == " AI Assistant":
     st.header(" AI Drug Repurposing Assistant")
     st.markdown("Ask me anything about drugs, diseases, or drug repurposing!")
     
-    # Simple chatbot without external APIs
     user_input = st.text_input("Ask a question:", placeholder="e.g., What drugs could help with Alzheimer's?")
     
     if st.button("Send", type="primary"):
         if user_input:
-            # Add to chat history
             st.session_state.chat_history.append({
                 'role': 'user',
                 'content': user_input,
                 'timestamp': datetime.now()
             })
             
-            # Generate response using the function defined above
             response = generate_smart_response(user_input, smart_search, drug_collection, disease_collection)
             
             st.session_state.chat_history.append({
@@ -569,7 +556,6 @@ elif page == " AI Assistant":
                 'timestamp': datetime.now()
             })
     
-    # Display chat history
     st.markdown("---")
     for msg in st.session_state.chat_history:
         if msg['role'] == 'user':
@@ -580,24 +566,20 @@ elif page == " AI Assistant":
         st.caption(msg['timestamp'].strftime("%H:%M:%S"))
         st.markdown("---")
     
-    # Clear chat button
     if st.session_state.chat_history:
         if st.button("🗑️ Clear Chat History"):
             st.session_state.chat_history = []
             st.rerun()
 
-# Page: Analytics
 elif page == " Analytics":
     st.header(" Database Analytics")
     
-    # Get all drugs
     all_drugs = drug_collection.get(include=["metadatas"])
     drugs_df = pd.DataFrame(all_drugs['metadatas'])
     
     col1, col2 = st.columns(2)
     
     with col1:
-        # Drug-likeness distribution
         if 'passes_lipinski' in drugs_df.columns:
             lipinski_counts = drugs_df['passes_lipinski'].value_counts()
             fig = px.pie(
@@ -608,7 +590,6 @@ elif page == " Analytics":
             st.plotly_chart(fig, use_container_width=True)
     
     with col2:
-        # BBB permeability
         if 'bbb_permeable' in drugs_df.columns:
             bbb_counts = drugs_df['bbb_permeable'].value_counts()
             fig = px.pie(
@@ -618,7 +599,6 @@ elif page == " Analytics":
             )
             st.plotly_chart(fig, use_container_width=True)
     
-    # Molecular weight distribution
     if 'molecular_weight' in drugs_df.columns:
         drugs_df['molecular_weight'] = pd.to_numeric(drugs_df['molecular_weight'], errors='coerce')
         valid_mw = drugs_df[drugs_df['molecular_weight'] > 0]
@@ -632,7 +612,6 @@ elif page == " Analytics":
             )
             st.plotly_chart(fig, use_container_width=True)
 
-# Page: Database Explorer
 else:
     st.header(" Database Explorer")
     
@@ -643,7 +622,6 @@ else:
         all_drugs = drug_collection.get(include=["metadatas"])
         drugs_list = [m.get('drug_name', 'Unknown') for m in all_drugs['metadatas']]
         
-        # Search filter
         search_filter = st.text_input(" Filter drugs:", placeholder="Type to filter...")
         
         if search_filter:
@@ -653,7 +631,6 @@ else:
         
         st.write(f"Showing {len(filtered)} of {len(drugs_list)} drugs")
         
-        # Display in columns
         cols = st.columns(3)
         for i, drug in enumerate(sorted(filtered)):
             cols[i % 3].write(f"• {drug}")
@@ -663,7 +640,6 @@ else:
         all_diseases = disease_collection.get(include=["metadatas"])
         disease_list = [m.get('disease_name', 'Unknown') for m in all_diseases['metadatas']]
         
-        # Search filter
         search_filter = st.text_input(" Filter diseases:", placeholder="Type to filter...", key="disease_filter")
         
         if search_filter:
@@ -673,7 +649,6 @@ else:
         
         st.write(f"Showing {len(filtered)} of {len(disease_list)} diseases")
         
-        # Display in columns
         cols = st.columns(2)
         for i, disease in enumerate(sorted(filtered)):
             cols[i % 2].write(f"• {disease}")
