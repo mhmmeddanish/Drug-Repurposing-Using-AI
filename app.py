@@ -189,7 +189,7 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                     for r in results[:5]:
                         response += f"**{r['rank']}. {r['drug_name']}** - {r['confidence']}% confidence\n"
                     
-                    response += f"\n💡 Use the **🔍 Smart Search** tab to explore more treatment options for {disease_name}!"
+                    response += f"\n Use the ** Smart Search** tab to explore more treatment options for {disease_name}!"
                     return response
     
     for disease_key, disease_info in disease_patterns.items():
@@ -267,7 +267,7 @@ Drug repurposing (or repositioning) is finding new therapeutic uses for existing
 **Try it yourself:**
 - Type "diabetes" or "alzheimer" to find drug candidates
 - Type a drug name to find new uses
-- Use the 🔍 Smart Search tab for detailed results!"""
+- Use the  Smart Search tab for detailed results!"""
         
         elif 'use' in user_lower or 'help' in user_lower:
             return """**How to use this system:**
@@ -326,7 +326,7 @@ Try asking about any disease!"""
 - Disease name: *"alzheimer"*, *"cancer"*, *"diabetes"*
 - Drug name: *"aspirin"*, *"metformin"*
 
-**Pro tip:** The **🔍 Smart Search** tab gives you detailed results with molecular properties and confidence scores!
+**Pro tip:** The ** Smart Search** tab gives you detailed results with molecular properties and confidence scores!
 
 Try asking about a disease or drug!"""
 drug_collection, disease_collection, smart_search = load_database()
@@ -367,7 +367,7 @@ if page == " Smart Search":
     with col1:
         search_type = st.radio(
             "What do you want to find?",
-            ["💊 Drugs for a Disease", "🦠 Diseases for a Drug", "🔄 Similar Drugs"],
+            ["Drugs for a Disease", "Diseases for a Drug", "Similar Drugs"],
             horizontal=True
         )
     
@@ -377,9 +377,9 @@ if page == " Smart Search":
     st.markdown("---")
     
     # Search interface
-    if search_type == "💊 Drugs for a Disease":
+    if search_type == " Drugs for a Disease":
         query = st.text_input(
-            "🔎 Enter disease name or description:",
+            " Enter disease name or description:",
             placeholder="e.g., alzheimer, diabetes, cancer, heart disease...",
             key="disease_search"
         )
@@ -430,7 +430,7 @@ if page == " Smart Search":
                         
                         # Visualization
                         st.markdown("---")
-                        st.subheader("📊 Confidence Distribution")
+                        st.subheader(" Confidence Distribution")
                         
                         df = pd.DataFrame(results)
                         fig = px.bar(
@@ -448,7 +448,7 @@ if page == " Smart Search":
             else:
                 st.warning(" Please enter a search query!!")
     
-    elif search_type == "🦠 Diseases for a Drug":
+    elif search_type == " Diseases for a Drug":
         drug_query = st.text_input(
             " Enter drug name:",
             placeholder="e.g., aspirin, metformin, ibuprofen...",
@@ -457,7 +457,7 @@ if page == " Smart Search":
         
         if st.button(" Search", type="primary", use_container_width=True):
             if drug_query:
-                with st.spinner("🔍 Searching..."):
+                with st.spinner(" Searching..."):
                     # Find drug with fuzzy matching
                     exact_match, suggestions = smart_search.find_drug(drug_query)
                     
@@ -636,7 +636,7 @@ elif page == " Analytics":
 else:
     st.header(" Database Explorer")
     
-    tab1, tab2 = st.tabs(["💊 Drugs", "🦠 Diseases"])
+    tab1, tab2 = st.tabs([" Drugs", " Diseases"])
     
     with tab1:
         st.subheader("All Drugs in Database")
@@ -644,7 +644,7 @@ else:
         drugs_list = [m.get('drug_name', 'Unknown') for m in all_drugs['metadatas']]
         
         # Search filter
-        search_filter = st.text_input("🔍 Filter drugs:", placeholder="Type to filter...")
+        search_filter = st.text_input(" Filter drugs:", placeholder="Type to filter...")
         
         if search_filter:
             filtered = [d for d in drugs_list if search_filter.lower() in d.lower()]
