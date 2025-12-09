@@ -209,7 +209,7 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                     response += f"   • Drug-like: {'' if r['passes_lipinski'] else ''}\n"
                     response += f"   • BBB Permeable: {'' if r['bbb_permeable'] else ''}\n\n"
                 
-                response += f"\n💡 Try the **🔍 Smart Search** tab for detailed results with charts!"
+                response += f"\n Try the ** Smart Search** tab for detailed results with charts!"
                 return response
     
     drug_names_common = [
@@ -243,7 +243,7 @@ def generate_smart_response(user_input, smart_search, drug_collection, disease_c
                         confidence = (1 - distance) * 100
                         response += f"{i}. **{metadata['disease_name']}** - {confidence:.1f}% confidence\n"
                     
-                    response += "\n Use the **🔍 Smart Search** tab to explore more!"
+                    response += "\n Use the ** Smart Search** tab to explore more!"
                     return response
     
     if any(word in user_lower for word in ['how', 'explain', 'tell']):
@@ -375,7 +375,7 @@ if page == " Smart Search":
     
     st.markdown("---")
     
-    if search_type == " Drugs for a Disease":
+    if search_type == "Drugs for a Disease":
         query = st.text_input(
             "Enter disease name or description:",
             placeholder="e.g., alzheimer, diabetes, cancer, heart disease...",
@@ -401,7 +401,7 @@ if page == " Smart Search":
                             else:
                                 conf_class = "confidence-low"
                             
-                            with st.expander(f"{emoji} {result['rank']}. {result['drug_name']} - {confidence}% confidence"):
+                            with st.expander(f"{result['rank']}. {result['drug_name']} - {confidence}% confidence"):
                                 col1, col2, col3 = st.columns(3)
                                 
                                 with col1:
