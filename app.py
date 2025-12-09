@@ -69,46 +69,79 @@ if 'chat_history' not in st.session_state:
 if 'search_results' not in st.session_state:
     st.session_state.search_results = None
 
-@st.cache_resource
-def load_database():
-    """Load ChromaDB database (cached)"""
-    # Use absolute path
-    db_path = PROJECT_ROOT / "data" / "vector_db"
+# @st.cache_resource
+# def load_database():
+#     """Load ChromaDB database (cached)"""
+#     # Use absolute path
+#     db_path = PROJECT_ROOT / "data" / "vector_db"
     
-    if not db_path.exists():
-        st.error(f"❌ Database not found!")
-        st.error(f"Expected location: `{db_path}`")
+#     if not db_path.exists():
+#         st.error(f"❌ Database not found!")
+#         st.error(f"Expected location: `{db_path}`")
         
-        st.info("### 🚀 Setup Steps:")
-        st.code("""
-            # Run these commands from your project root:
-            cd """ + str(PROJECT_ROOT) + """
+#         st.info("### 🚀 Setup Steps:")
+#         st.code("""
+#             # Run these commands from your project root:
+#             cd """ + str(PROJECT_ROOT) + """
 
-            python scripts/01_download_data.py
-            python scripts/02_collect_metadata.py
-            python scripts/03_enrich_metadata.py
-            python scripts/04_create_embeddings.py
-            python scripts/05_setup_vector_db.py
-                    """, language="bash")
+#             python scripts/01_download_data.py
+#             python scripts/02_collect_metadata.py
+#             python scripts/03_enrich_metadata.py
+#             python scripts/04_create_embeddings.py
+#             python scripts/05_setup_vector_db.py
+#                     """, language="bash")
         
-        st.stop()
+#         st.stop()
     
-    try:
-        client = chromadb.PersistentClient(
-            path=str(db_path),
-            settings=Settings(anonymized_telemetry=False)
-        )
+#     try:
+#         client = chromadb.PersistentClient(
+#             path=str(db_path),
+#             settings=Settings(anonymized_telemetry=False)
+#         )
         
-        drug_collection = client.get_collection("drugs")
-        disease_collection = client.get_collection("diseases")
+#         drug_collection = client.get_collection("drugs")
+#         disease_collection = client.get_collection("diseases")
         
-        smart_search = SmartSearch(drug_collection, disease_collection)
+#         smart_search = SmartSearch(drug_collection, disease_collection)
         
-        return drug_collection, disease_collection, smart_search
+#         return drug_collection, disease_collection, smart_search
     
-    except Exception as e:
-        st.error(f"❌ Error loading database: {str(e)}")
-        st.stop()
+#     except Exception as e:
+#         st.error(f"❌ Error loading database: {str(e)}")
+#         st.stop()
+    @st.cache_resource
+    def load_database():
+        """Load ChromaDB database (cached)"""
+        db_path = PROJECT_ROOT / "data" / "vector_db"
+        
+        if not db_path.exists():
+            st.error(f"❌ Database not found!")
+            st.error(f"Expected location: `{db_path}`")
+            ...
+            st.stop()
+        
+        try:
+            client = chromadb.PersistentClient(
+                path=str(db_path),
+                settings=Settings(anonymized_telemetry=False)
+            )
+    
+            # 👇 TEMP: show what collections exist
+            collections = [c.name for c in client.list_collections()]
+            st.write("Available collections:", collections)
+    
+            drug_collection = client.get_collection("drugs")
+            disease_collection = client.get_collection("diseases")
+    
+            smart_search = SmartSearch(drug_collection, disease_collection)
+            return drug_collection, disease_collection, smart_search
+    
+        except Exception as e:
+            import traceback
+            st.error(f"❌ Error loading database: {repr(e)}")
+            st.error("Stack trace:")
+            st.code(traceback.format_exc())
+            st.stop()
 
 # ⭐ MOVE THIS FUNCTION HERE - BEFORE IT'S USED ⭐
 def generate_smart_response(user_input, smart_search, drug_collection, disease_collection):
