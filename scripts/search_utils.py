@@ -10,17 +10,16 @@ class SmartSearch:
         self.drug_collection = drug_collection
         self.disease_collection = disease_collection
         
-        # Cache all drug and disease names
         self._cache_names()
     
     def _cache_names(self):
         """Cache all drug and disease names for fuzzy matching"""
-        # Get all drugs
+   
         all_drugs = self.drug_collection.get(include=["metadatas"])
         self.drug_names = [m.get('drug_name', '') for m in all_drugs['metadatas']]
         self.drug_names_lower = {name.lower(): name for name in self.drug_names}
         
-        # Get all diseases
+       
         all_diseases = self.disease_collection.get(include=["metadatas"])
         self.disease_names = [m.get('disease_name', '') for m in all_diseases['metadatas']]
         self.disease_names_lower = {name.lower(): name for name in self.disease_names}
@@ -51,16 +50,16 @@ class SmartSearch:
         """
         query_lower = query.lower().strip()
         
-        # Exact match (case-insensitive)
+        
         if query_lower in self.disease_names_lower:
             return self.disease_names_lower[query_lower], []
         
-        # Partial match
+ 
         for lower_name, actual_name in self.disease_names_lower.items():
             if query_lower in lower_name or lower_name in query_lower:
                 return actual_name, []
         
-        # Fuzzy match
+   
         suggestions = get_close_matches(query_lower, self.disease_names_lower.keys(), n=5, cutoff=0.6)
         suggested_names = [self.disease_names_lower[s] for s in suggestions]
         
