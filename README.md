@@ -90,15 +90,9 @@ Filter results using simple text queries.
     pip install -r requirements.txt
 
 3. Prepare the vector database (only needed once).  
-   Run these scripts in order:
-
-    python scripts/01_download_data.py  
-    python scripts/02_collect_metadata.py  
-    python scripts/03_enrich_metadata.py  
-    python scripts/04_create_embeddings.py  
-    python scripts/05_setup_vector_db.py
-
-This will create the folder `data/vector_db`, which the Streamlit app uses.
+   Run the scripts in order:
+       "I have ran the scripts locally and then uploaded the main data thats gonna be used here"
+folder `data/vector_db`, which the Streamlit app uses.
 
 ---
 
@@ -156,3 +150,4 @@ Make sure the `data/vector_db` folder is included in the repository so the datab
 - The quality of results depends heavily on the embedding model and data used.
 
 ---
+
